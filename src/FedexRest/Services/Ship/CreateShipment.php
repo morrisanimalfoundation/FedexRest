@@ -18,8 +18,7 @@ use FedexRest\Services\Ship\Type\LabelDocOptionType;
 
 class CreateShipment extends AbstractRequest
 {
-    public Person $shipper;
-
+    protected Person $shipper;
     protected array $recipients = [];
     protected Label $label;
     protected string $shipDatestamp = '';
