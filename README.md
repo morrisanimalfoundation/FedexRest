@@ -393,10 +393,11 @@ object(stdClass)#64 (2) {
 
 #### Address Validation
 ###### Example
+
 ```php
 $response = (new \FedexRest\Services\AddressValidation\AddressValidation())
             ->setAddress(
-                (new \FedexRest\Entity\Address())
+                (new \FedexRest\Services\Ship\Entity\Address())
                     ->setCity('Irving')
                     ->setCountryCode('US')
                     ->setStateOrProvince('TX')
