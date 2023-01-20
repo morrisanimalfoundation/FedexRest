@@ -9,7 +9,7 @@ class ShippingChargesPayment
      * @param string  $paymentType
      * @return $this
      */
-    public function setPaymentType(string $paymentType):ShippingChargesPayment
+    public function setPaymentType(string $paymentType): ShippingChargesPayment
     {
         $this->paymentType = $paymentType;
         return $this;

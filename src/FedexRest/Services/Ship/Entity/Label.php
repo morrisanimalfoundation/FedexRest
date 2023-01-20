@@ -11,7 +11,7 @@ class Label
      * @param string  $imageType
      * @return $this
      */
-    public function setImageType(string $imageType):Label
+    public function setImageType(string $imageType): Label
     {
         $this->imageType = $imageType;
         return $this;

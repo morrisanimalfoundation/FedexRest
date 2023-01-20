@@ -11,7 +11,7 @@ class ShipmentSpecialServices
      * @param array  $specialServiceTypes
      * @return $this
      */
-    public function setSpecialServiceTypes(array $specialServiceTypes):ShipmentSpecialServices
+    public function setSpecialServiceTypes(array $specialServiceTypes): ShipmentSpecialServices
     {
         $this->specialServiceTypes = $specialServiceTypes;
         return $this;

@@ -362,7 +362,7 @@ class CreateShipment extends AbstractRequest
     }
 
     /**
-     * @param  \FedexRest\Services\Ship\Entity\Person  $origin
+     * @param  \FedexRest\Entity\Person  $origin
      *
      * @return $this
      */
@@ -373,7 +373,7 @@ class CreateShipment extends AbstractRequest
     }
 
     /**
-     * @return \FedexRest\Services\Ship\Entity\Person
+     * @return \FedexRest\Entity\Person
      */
     public function getOrigin(): Person
     {
